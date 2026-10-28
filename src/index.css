@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+:root {
+  --bg-main: #faf7f2;
+  --bg-surface: #ffffff;
+  --primary-green: #1b4332;
+  --primary-hover: #2d6a4f;
+  --accent-gold: #c68b59;
+  --accent-spice: #d9534f;
+  --text-dark: #1f2421;
+  --text-muted: #6b705c;
+  --border-light: #e8e4dc;
+  --shadow-card: 0 12px 30px rgba(27, 67, 50, 0.08);
+  --shadow-hover: 0 20px 40px rgba(27, 67, 50, 0.15);
+  --radius-lg: 20px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--primary-green);
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+}
